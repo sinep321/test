@@ -43,7 +43,7 @@
 
 // let incr = 10,
 //     decr = 10;
- 
+
 
 //     console.log(incr++);
 //     console.log(decr--);
@@ -55,3 +55,33 @@
 //     let isClose = false;
 
 //     console.log(isChecked || !isClose);
+
+let num = 50;
+
+if (num < 49) {
+    console.log("Ne verno");
+} else if (num > 100) {
+    console.log("Mnogo!");
+} else {
+    console.log("True!");
+}
+
+(num == 50) ? console.log("True!"): console.log("Ne verno!");
+
+switch (num) {
+    case num < 49:
+        console.log("Ne verno");
+        break;
+    case num > 100:
+        console.log("Mnogo!");
+        break;
+    case num > 80:
+        console.log("Mnogo!");
+        break;
+    case 50:
+        console.log("True!");
+        break;  
+    default:
+        console.log("Chto to ne tak");
+        break;       
+}
